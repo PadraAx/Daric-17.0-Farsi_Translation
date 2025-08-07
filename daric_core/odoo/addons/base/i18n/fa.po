@@ -44432,7 +44432,7 @@ msgstr ""
 #: model:ir.module.category,name:base.module_category_services
 #: model:ir.module.category,name:base.module_category_theme_services
 msgid "Services"
-msgstr "محصولات"
+msgstr "خدمات"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_profile__session

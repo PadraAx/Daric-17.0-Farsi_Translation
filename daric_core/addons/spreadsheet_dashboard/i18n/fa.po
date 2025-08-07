@@ -215,7 +215,7 @@ msgstr "دنباله"
 #. module: spreadsheet_dashboard
 #: model:spreadsheet.dashboard.group,name:spreadsheet_dashboard.spreadsheet_dashboard_group_project
 msgid "Services"
-msgstr "محصولات"
+msgstr "خدمات"
 
 #. module: spreadsheet_dashboard
 #: model:ir.model,name:spreadsheet_dashboard.model_spreadsheet_dashboard

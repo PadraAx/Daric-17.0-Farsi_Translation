@@ -3208,7 +3208,7 @@ msgstr "بخش‌ها"
 #: code:addons/account_reports/models/account_sales_report.py:0
 #, python-format
 msgid "Services"
-msgstr "محصولات"
+msgstr "خدمات"
 
 #. module: account_reports
 #. odoo-python

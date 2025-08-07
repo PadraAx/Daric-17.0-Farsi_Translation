@@ -3618,7 +3618,7 @@ msgstr "دنباله"
 #. module: website_sale
 #: model:product.public.category,name:website_sale.services
 msgid "Services"
-msgstr "محصولات"
+msgstr "خدمات"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
