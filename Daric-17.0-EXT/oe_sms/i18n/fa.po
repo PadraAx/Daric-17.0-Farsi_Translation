@@ -33,69 +33,69 @@ msgstr "تنظیمات پیکربندی"
 #. module: oe_sms
 #: model:ir.model.fields.selection,name:oe_sms.selection__sms_sms__oe_reason_code__22
 msgid "Delivery Failure"
-msgstr ""
+msgstr "خطا در تحویل"
 
 #. module: oe_sms
 #: model:ir.model.fields.selection,name:oe_sms.selection__res_config_settings__sms_provider_type__melipayamak
 #: model:ir.model.fields.selection,name:oe_sms.selection__sms_sms__sms_send_from__melipayamak
 msgid "Meli Payamak"
-msgstr ""
+msgstr "ملی پیامک"
 
 #. module: oe_sms
 #: model:ir.model.fields.selection,name:oe_sms.selection__sms_sms__oe_reason_code__0
 msgid "No error"
-msgstr ""
+msgstr "بدون خطا"
 
 #. module: oe_sms
 #: model:ir.model.fields.selection,name:oe_sms.selection__res_config_settings__sms_provider_type__odoo_iap
 #: model:ir.model.fields.selection,name:oe_sms.selection__sms_sms__sms_send_from__odoo_iap
 msgid "Odoo IAP"
-msgstr ""
+msgstr "Odoo IAP"
 
 #. module: oe_sms
 #: model:ir.model,name:oe_sms.model_sms_sms
 msgid "Outgoing SMS"
-msgstr ""
+msgstr "پیامک ارسالی"
 
 #. module: oe_sms
 #: model_terms:ir.ui.view,arch_db:oe_sms.oe_sms_inherit
 msgid "Provider Result"
-msgstr "نتایج خدمات دهنده"
+msgstr "نتیجه ارائه‌دهنده"
 
 #. module: oe_sms
 #: model:ir.model.fields.selection,name:oe_sms.selection__sms_sms__oe_reason_code__21
 msgid "Recipient number incorrect"
-msgstr ""
+msgstr "شماره گیرنده نادرست است"
 
 #. module: oe_sms
 #: model:ir.model.fields.selection,name:oe_sms.selection__sms_sms__oe_reason_code__20
 msgid "Recipient number unreachable"
-msgstr ""
+msgstr "شماره گیرنده در دسترس نیست"
 
 #. module: oe_sms
 #: model:ir.model,name:oe_sms.model_sms_resend_recipient
 msgid "Resend Notification"
-msgstr ""
+msgstr "ارسال مجدد اعلان"
 
 #. module: oe_sms
 #: model:ir.model,name:oe_sms.model_sms_api
 msgid "SMS API"
-msgstr ""
+msgstr "رابط برنامه‌نویسی پیامک"
 
 #. module: oe_sms
 #: model:ir.model.fields,field_description:oe_sms.field_res_config_settings__sms_provider_type
 msgid "SMS Provider"
-msgstr ""
+msgstr "ارائه‌دهنده پیامک"
 
 #. module: oe_sms
 #: model:ir.model.fields,field_description:oe_sms.field_res_config_settings__sms_originator
 msgid "SMS originator"
-msgstr ""
+msgstr "فرستنده پیامک"
 
 #. module: oe_sms
 #: model:ir.model.fields,field_description:oe_sms.field_res_config_settings__sms_password
 msgid "SMS password"
-msgstr ""
+msgstr "رمز عبور پیامک"
 
 #. module: oe_sms
 #: model:ir.model.fields,field_description:oe_sms.field_sms_sms__sms_send_from
@@ -110,7 +110,7 @@ msgstr "خدمات پیامک"
 #. module: oe_sms
 #: model:ir.model.fields,field_description:oe_sms.field_res_config_settings__sms_user
 msgid "SMS user"
-msgstr ""
+msgstr "نام کاربری پیامک"
 
 #. module: oe_sms
 #: model:ir.model.fields.selection,name:oe_sms.selection__sms_sms__oe_reason_code__31
@@ -118,6 +118,7 @@ msgid ""
 "The recipient is blacklisted (e.g. People that respond \"STOP\" to an "
 "earlier message can appear in the blacklist)"
 msgstr ""
+"گیرنده در لیست سیاه قرار دارد (مثلاً افرادی که به پیام قبلی با «STOP» پاسخ دهند)"
 
 #. module: oe_sms
 #: model_terms:ir.ui.view,arch_db:oe_sms.res_config_settings_view_form_oe_sms
