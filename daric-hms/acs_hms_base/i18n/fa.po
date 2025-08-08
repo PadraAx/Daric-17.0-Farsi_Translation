@@ -2664,7 +2664,7 @@ msgstr "دنباله"
 #: model:ir.ui.menu,name:acs_hms_base.acs_services_root
 #: model:ir.ui.menu,name:acs_hms_base.menu_acs_services
 msgid "Services"
-msgstr ""
+msgstr "خدمات"
 
 #. module: acs_hms_base
 #: model:ir.model.fields,field_description:acs_hms_base.field_hms_physician__new_password
