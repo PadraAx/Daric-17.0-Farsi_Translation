@@ -230,7 +230,7 @@ msgstr "تغییر دادن"
 #. module: advanced_session_management
 #: model_terms:ir.ui.view,arch_db:advanced_session_management.activity_log_form_view_ah
 msgid "Changes Views"
-msgstr "نماها را تغییر دهید"
+msgstr "تغییر نماها"
 
 #. module: advanced_session_management
 #: model:ir.model.fields,field_description:advanced_session_management.field_login_log__city
@@ -241,13 +241,13 @@ msgstr "شهر"
 #: model_terms:ir.ui.view,arch_db:advanced_session_management.login_log_form_view_ah
 #: model_terms:ir.ui.view,arch_db:advanced_session_management.login_log_tree_view_ah
 msgid "Close Session"
-msgstr "جلسه بستن"
+msgstr "بستن جلسه"
 
 #. module: advanced_session_management
 #: model:ir.model.fields.selection,name:advanced_session_management.selection__login_log__state__close
 #: model_terms:ir.ui.view,arch_db:advanced_session_management.login_log_seearch_view_ao
 msgid "Clossed"
-msgstr "چاشنی"
+msgstr "بسته‌شده"
 
 #. module: advanced_session_management
 #: model:ir.model,name:advanced_session_management.model_res_config_settings
@@ -300,23 +300,23 @@ msgstr "دستگاه"
 #: model:ir.model.fields,field_description:advanced_session_management.field_edit_value__display_name
 #: model:ir.model.fields,field_description:advanced_session_management.field_login_log__display_name
 msgid "Display Name"
-msgstr "نام"
+msgstr "نام نمایشی"
 
 #. module: advanced_session_management
 #: model:ir.model.fields,field_description:advanced_session_management.field_res_config_settings__session_timeout_active
 msgid "Do not timeout active session"
-msgstr "جلسه فعال Timeout را انجام ندهید"
+msgstr "برای جلسه فعال محدودیت زمان اعمال نکن"
 
 #. module: advanced_session_management
 #: model:ir.model,name:advanced_session_management.model_edit_value
 #: model:ir.model.fields,field_description:advanced_session_management.field_activity_log__edit_value_ids
 msgid "Edit Value"
-msgstr "ارزش ویرایش"
+msgstr "ویرایش مقدار"
 
 #. module: advanced_session_management
 #: model:ir.actions.server,name:advanced_session_management.enable_user_activity_log_ir_actions_server
 msgid "Enable User Activity Log"
-msgstr "ورود به سامانه فعالیت کاربر را فعال کنید"
+msgstr "فعال‌سازی ثبت فعالیت کاربر"
 
 #. module: advanced_session_management
 #. odoo-python
@@ -324,18 +324,18 @@ msgstr "ورود به سامانه فعالیت کاربر را فعال کنی�
 #, python-format
 msgid ""
 "For the security purpose, you can't delete your own sessions and activities."
-msgstr "برای هدف امنیتی ، شما نمی توانید جلسات و فعالیت های خود را حذف کنید."
+msgstr "به دلایل امنیتی، نمی‌توانید جلسات و فعالیت‌های خود را حذف کنید."
 
 #. module: advanced_session_management
 #: model_terms:ir.ui.view,arch_db:advanced_session_management.activity_log_seearch_view_ao
 #: model_terms:ir.ui.view,arch_db:advanced_session_management.login_log_seearch_view_ao
 msgid "Group By"
-msgstr "گروه"
+msgstr "دسته‌بندی بر اساس"
 
 #. module: advanced_session_management
 #: model:ir.model.fields,field_description:advanced_session_management.field_activity_log__has_change_view
 msgid "Has Change View"
-msgstr "نمای تغییر دارد"
+msgstr "دارای تغییر نما"
 
 #. module: advanced_session_management
 #: model:ir.model.fields,field_description:advanced_session_management.field_activity_log__id
@@ -347,7 +347,7 @@ msgstr "شناسه"
 #. module: advanced_session_management
 #: model:ir.model.fields,field_description:advanced_session_management.field_login_log__ip
 msgid "IP"
-msgstr "با منبت کاری کردن"
+msgstr "IP"
 
 #. module: advanced_session_management
 #: model_terms:ir.ui.view,arch_db:advanced_session_management.login_log_form_view_ah
@@ -357,12 +357,12 @@ msgstr "جستجوی IP"
 #. module: advanced_session_management
 #: model:ir.model.fields.selection,name:advanced_session_management.selection__res_config_settings__session_timeout_active__inactive
 msgid "Inactive"
-msgstr "غیر فعال"
+msgstr "غیرفعال"
 
 #. module: advanced_session_management
 #: model:ir.model.fields,field_description:advanced_session_management.field_res_config_settings__session_timeout_interval_number
 msgid "Interval Number"
-msgstr "تعداد فاصله"
+msgstr "عدد فاصله زمانی"
 
 #. module: advanced_session_management
 #: model:ir.model.fields,field_description:advanced_session_management.field_login_log__is_active
@@ -372,7 +372,7 @@ msgstr "فعال است"
 #. module: advanced_session_management
 #: model_terms:ir.ui.view,arch_db:advanced_session_management.login_session_res_users_inherit_form_view_ah
 msgid "Kill All Session"
-msgstr "کشتن همه جلسه"
+msgstr "پایان دادن به همه جلسات"
 
 #. module: advanced_session_management
 #: model:ir.model.fields,field_description:advanced_session_management.field_login_log__timeout_date
@@ -456,12 +456,12 @@ msgstr "تغییرات جدید"
 #: model:mail.template,name:advanced_session_management.new_session_start_mail_template_ah
 #: model:mail.template,subject:advanced_session_management.new_session_start_mail_template_ah
 msgid "New login on your Odoo account\n"
-msgstr "ورود به سامانه جدید در حساب Odoo خود"
+msgstr "ورود جدید به حساب Odoo شما"
 
 #. module: advanced_session_management
 #: model:ir.model.fields.selection,name:advanced_session_management.selection__res_config_settings__session_timeout_active__none
 msgid "None"
-msgstr "هیچ کدام"
+msgstr "هیچ‌کدام"
 
 #. module: advanced_session_management
 #: model_terms:ir.ui.view,arch_db:advanced_session_management.login_session_res_config_settings_inherit_form_view_ah
@@ -470,39 +470,39 @@ msgid ""
 "\t\t\t\t\t\t\t\tActive = Session won't be killed automatically until user is active\n"
 "\t\t\t\t\t\t\t\tInactive = Session will be killed after the duration, no matter if the user is active or not"
 msgstr ""
-"هیچ یک = جلسه را به طور خودکار نمی کشید <br/>\n"
-"\t\t\t\t\t\t\t\tفعال = جلسه تا زمانی که کاربر فعال نباشد به طور خودکار کشته نمی شود\n"
-"\t\t\t\t\t\t\t\tغیرفعال = جلسه پس از مدت زمان کشته می شود ، مهم نیست که کاربر فعال باشد یا خیر"
+"هیچ‌کدام = جلسه به‌طور خودکار پایان داده نمی‌شود<br/>\n"
+"\t\t\t\t\t\t\t\tفعال = جلسه تا زمانی که کاربر فعال باشد به‌طور خودکار پایان داده نمی‌شود\n"
+"\t\t\t\t\t\t\t\tغیرفعال = جلسه پس از مدت مشخص پایان داده می‌شود، بدون توجه به فعال بودن کاربر"
 
 #. module: advanced_session_management
 #: model_terms:ir.ui.view,arch_db:advanced_session_management.login_session_res_config_settings_inherit_form_view_ah
 msgid "Notify the User for any new Session"
-msgstr "برای هر جلسه جدید به کاربر اطلاع دهید"
+msgstr "اطلاع به کاربر در صورت ایجاد هر جلسه جدید"
 
 #. module: advanced_session_management
 #: model:ir.model.fields,field_description:advanced_session_management.field_login_log__os
 msgid "OS"
-msgstr "پیش روی"
+msgstr "سیستم‌عامل"
 
 #. module: advanced_session_management
 #: model_terms:ir.ui.view,arch_db:advanced_session_management.login_log_tree_view_ah
 msgid "Offline"
-msgstr "زیر"
+msgstr "آفلاین"
 
 #. module: advanced_session_management
 #: model:ir.model.fields,field_description:advanced_session_management.field_edit_value__old
 msgid "Old Changes"
-msgstr "تغییرات قدیمی"
+msgstr "تغییرات قبلی"
 
 #. module: advanced_session_management
 #: model_terms:ir.ui.view,arch_db:advanced_session_management.login_log_tree_view_ah
 msgid "Online"
-msgstr "بصورت آنلاین"
+msgstr "آنلاین"
 
 #. module: advanced_session_management
 #: model_terms:ir.ui.view,arch_db:advanced_session_management.activity_log_seearch_view_ao
 msgid "Only Create"
-msgstr "فقط ایجاد کنید"
+msgstr "فقط ایجاد"
 
 #. module: advanced_session_management
 #: model_terms:ir.ui.view,arch_db:advanced_session_management.activity_log_seearch_view_ao
@@ -512,30 +512,30 @@ msgstr "فقط حذف"
 #. module: advanced_session_management
 #: model_terms:ir.ui.view,arch_db:advanced_session_management.activity_log_seearch_view_ao
 msgid "Only Modify"
-msgstr "فقط اصلاح کنید"
+msgstr "فقط ویرایش"
 
 #. module: advanced_session_management
 #: model_terms:ir.ui.view,arch_db:advanced_session_management.activity_log_seearch_view_ao
 msgid "Only Read"
-msgstr "فقط بخوانید"
+msgstr "فقط خواندن"
 
 #. module: advanced_session_management
 #: model_terms:ir.ui.view,arch_db:advanced_session_management.activity_log_form_view_ah
 #: model_terms:ir.ui.view,arch_db:advanced_session_management.login_log_form_view_ah
 msgid "Open Record"
-msgstr "رکورد باز"
+msgstr "باز کردن رکورد"
 
 #. module: advanced_session_management
 #: model_terms:ir.ui.view,arch_db:advanced_session_management.activity_log_seearch_view_ao
 msgid "Performed Action"
-msgstr "عمل انجام شده"
+msgstr "عمل انجام‌شده"
 
 #. module: advanced_session_management
 #: model_terms:ir.ui.view,arch_db:advanced_session_management.activity_log_form_view_ah
 #: model_terms:ir.ui.view,arch_db:advanced_session_management.activity_log_seearch_view_ao
 #: model_terms:ir.ui.view,arch_db:advanced_session_management.activity_log_tree_view_ah
 msgid "Performed Date"
-msgstr "تاریخ انجام شده"
+msgstr "تاریخ انجام"
 
 #. module: advanced_session_management
 #: model:ir.model.fields.selection,name:advanced_session_management.selection__activity_log__action__read
@@ -545,34 +545,34 @@ msgstr "خواندن"
 #. module: advanced_session_management
 #: model:ir.model.fields,field_description:advanced_session_management.field_activity_log__res_id
 msgid "Record IDs"
-msgstr "شناسه های ضبط"
+msgstr "شناسه‌های رکورد"
 
 #. module: advanced_session_management
 #: model:ir.model.fields,field_description:advanced_session_management.field_activity_log__name
 #: model_terms:ir.ui.view,arch_db:advanced_session_management.login_log_form_view_ah
 msgid "Record Name"
-msgstr "نام ضبط"
+msgstr "نام رکورد"
 
 #. module: advanced_session_management
 #: model:ir.actions.server,name:advanced_session_management.cron_remove_old_login_session_ir_actions_server
 msgid "Remove old data from the Audit logs"
-msgstr "داده های قدیمی را از سیاهههای مربوط به حسابرسی حذف کنید"
+msgstr "حذف داده‌های قدیمی از گزارش‌های حسابرسی"
 
 #. module: advanced_session_management
 #: model:ir.model.fields,field_description:advanced_session_management.field_res_config_settings__remove_sesions
 msgid "Scheduled remove old sessions"
-msgstr "برنامه ریزی شده جلسات قدیمی را حذف کنید"
+msgstr "حذف زمان‌بندی‌شده جلسات قدیمی"
 
 #. module: advanced_session_management
 #: model_terms:ir.ui.view,arch_db:advanced_session_management.activity_log_seearch_view_ao
 #: model_terms:ir.ui.view,arch_db:advanced_session_management.login_log_seearch_view_ao
 msgid "Search contacts"
-msgstr "مخاطبین جستجو"
+msgstr "جستجوی مخاطبین"
 
 #. module: advanced_session_management
 #: model:ir.model.fields,field_description:advanced_session_management.field_res_config_settings__send_mail
 msgid "Send Mail When New Session Start"
-msgstr "ارسال نامه هنگام شروع جلسه جدید"
+msgstr "ارسال ایمیل هنگام شروع جلسه جدید"
 
 #. module: advanced_session_management
 #: model:ir.model.fields,field_description:advanced_session_management.field_activity_log__login_log_id
@@ -588,7 +588,7 @@ msgstr "شناسه جلسه"
 #. module: advanced_session_management
 #: model:ir.actions.server,name:advanced_session_management.session_timeout_ah_ir_actions_server
 msgid "Session Timeout"
-msgstr "زمان برگزاری جلسه"
+msgstr "انقضای جلسه"
 
 #. module: advanced_session_management
 #: model:ir.actions.act_window,name:advanced_session_management.action_login_log_ah
@@ -602,46 +602,45 @@ msgstr "جلسات"
 #. module: advanced_session_management
 #: model:ir.model.fields,field_description:advanced_session_management.field_login_log__loc_state
 msgid "State"
-msgstr "مرحله"
+msgstr "استان"
 
 #. module: advanced_session_management
 #: model:ir.model.fields,field_description:advanced_session_management.field_login_log__state
 #: model_terms:ir.ui.view,arch_db:advanced_session_management.login_log_seearch_view_ao
 msgid "Status"
-msgstr "حالت"
+msgstr "وضعیت"
 
 #. module: advanced_session_management
 #: model:ir.model,name:advanced_session_management.model_ir_config_parameter
 msgid "System Parameter"
-msgstr "پارامتر سامانه"
+msgstr "پارامتر سیستم"
 
 #. module: advanced_session_management
 #: model_terms:ir.ui.view,arch_db:advanced_session_management.login_session_res_config_settings_inherit_form_view_ah
 msgid "This will remove old data from the Audit logs"
-msgstr "این داده های قدیمی را از سیاهههای مربوط به حسابرسی حذف می کند"
+msgstr "این کار داده‌های قدیمی را از گزارش‌های حسابرسی حذف می‌کند"
 
 #. module: advanced_session_management
 #: model_terms:ir.ui.view,arch_db:advanced_session_management.login_session_res_config_settings_inherit_form_view_ah
 msgid ""
 "This will send a new mail to respective user whenever there is a new login"
 msgstr ""
-"این هر زمان که ورود به سامانه جدید وجود داشته باشد ، یک نامه جدید به کاربر "
-"مربوطه ارسال می کند"
+"هر زمان که ورود جدیدی انجام شود، یک ایمیل به کاربر مربوطه ارسال می‌شود"
 
 #. module: advanced_session_management
 #: model_terms:ir.ui.view,arch_db:advanced_session_management.login_session_res_config_settings_inherit_form_view_ah
 msgid "Time to kill any open session automatically"
-msgstr "زمان کشتن هر جلسه باز به طور خودکار"
+msgstr "زمان پایان خودکار هر جلسه باز"
 
 #. module: advanced_session_management
 #: model:ir.model.fields,field_description:advanced_session_management.field_login_log__url
 msgid "URL"
-msgstr "url"
+msgstr "آدرس اینترنتی"
 
 #. module: advanced_session_management
 #: model:ir.model.fields,field_description:advanced_session_management.field_activity_log__url
 msgid "Url"
-msgstr "url"
+msgstr "آدرس اینترنتی"
 
 #. module: advanced_session_management
 #: model:ir.model,name:advanced_session_management.model_res_users
@@ -656,19 +655,19 @@ msgstr "کاربر"
 #. module: advanced_session_management
 #: model:ir.model.fields,field_description:advanced_session_management.field_login_log__user_agent
 msgid "User Agent"
-msgstr "عامل کاربر"
+msgstr "عامل کاربر (User Agent)"
 
 #. module: advanced_session_management
 #: model:ir.model.fields,field_description:advanced_session_management.field_activity_log__view
 msgid "View"
-msgstr "نمایش"
+msgstr "نما"
 
 #. module: advanced_session_management
 #. odoo-python
 #: code:addons/advanced_session_management/models/activity_log.py:0
 #, python-format
 msgid "You cant delete your own sessions and activitiy."
-msgstr "شما نمی توانید جلسات و فعالیت های خود را حذف کنید."
+msgstr "شما نمی‌توانید جلسات و فعالیت‌های خود را حذف کنید."
 
 #. module: advanced_session_management
 #: model:ir.model,name:advanced_session_management.model_ir_qweb
