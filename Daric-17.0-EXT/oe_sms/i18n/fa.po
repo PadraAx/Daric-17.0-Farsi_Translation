@@ -4,21 +4,16 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 16.0+e-20230720\n"
+"Project-Id-Version: Odoo Server 17.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-29 08:36+0000\n"
-"PO-Revision-Date: 2023-08-29 08:36+0000\n"
+"POT-Creation-Date: 2025-08-08 14:24+0000\n"
+"PO-Revision-Date: 2025-08-08 14:24+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
-
-#. module: oe_sms
-#: model_terms:ir.ui.view,arch_db:oe_sms.res_config_settings_view_form_oe_sms
-msgid "<span class=\"o_form_label\">SMS Provider</span>"
-msgstr "<span class=\"o_form_label\">خدمات دهنده پیامک</span>"
 
 #. module: oe_sms
 #: model_terms:ir.ui.view,arch_db:oe_sms.res_config_settings_view_form_oe_sms
@@ -36,8 +31,29 @@ msgid "Delivery Failure"
 msgstr "خطا در تحویل"
 
 #. module: oe_sms
+#. odoo-python
+#: code:addons/oe_sms/models/res_config_settings.py:0
+#: model:ir.model.fields.selection,name:oe_sms.selection__res_config_settings__sms_provider_type__ghasedak
+#: model:ir.model.fields.selection,name:oe_sms.selection__sms_sms__sms_send_from__ghasedak
+#, python-format
+msgid "Ghasedak"
+msgstr "قاصدک"
+
+#. module: oe_sms
+#. odoo-python
+#: code:addons/oe_sms/models/res_config_settings.py:0
+#: model:ir.model.fields.selection,name:oe_sms.selection__res_config_settings__sms_provider_type__kavenegar
+#: model:ir.model.fields.selection,name:oe_sms.selection__sms_sms__sms_send_from__kavenegar
+#, python-format
+msgid "Kavenegar"
+msgstr "کاوه‌نگار"
+
+#. module: oe_sms
+#. odoo-python
+#: code:addons/oe_sms/models/res_config_settings.py:0
 #: model:ir.model.fields.selection,name:oe_sms.selection__res_config_settings__sms_provider_type__melipayamak
 #: model:ir.model.fields.selection,name:oe_sms.selection__sms_sms__sms_send_from__melipayamak
+#, python-format
 msgid "Meli Payamak"
 msgstr "ملی پیامک"
 
@@ -47,15 +63,18 @@ msgid "No error"
 msgstr "بدون خطا"
 
 #. module: oe_sms
+#. odoo-python
+#: code:addons/oe_sms/models/res_config_settings.py:0
 #: model:ir.model.fields.selection,name:oe_sms.selection__res_config_settings__sms_provider_type__odoo_iap
 #: model:ir.model.fields.selection,name:oe_sms.selection__sms_sms__sms_send_from__odoo_iap
+#, python-format
 msgid "Odoo IAP"
-msgstr "Odoo IAP"
+msgstr "خرید درون برنامه ای دریک"
 
 #. module: oe_sms
 #: model:ir.model,name:oe_sms.model_sms_sms
 msgid "Outgoing SMS"
-msgstr "پیامک ارسالی"
+msgstr "پیامک خروجی"
 
 #. module: oe_sms
 #: model_terms:ir.ui.view,arch_db:oe_sms.oe_sms_inherit
@@ -78,9 +97,19 @@ msgid "Resend Notification"
 msgstr "ارسال مجدد اعلان"
 
 #. module: oe_sms
-#: model:ir.model,name:oe_sms.model_sms_api
-msgid "SMS API"
-msgstr "رابط برنامه‌نویسی پیامک"
+#: model_terms:ir.ui.view,arch_db:oe_sms.res_config_settings_view_form_oe_sms
+msgid "SMS"
+msgstr "پیامک"
+
+#. module: oe_sms
+#: model:ir.model.fields,field_description:oe_sms.field_res_config_settings__sms_api_key
+msgid "SMS API Key"
+msgstr "کلید API پیامک"
+
+#. module: oe_sms
+#: model_terms:ir.ui.view,arch_db:oe_sms.res_config_settings_view_form_oe_sms
+msgid "SMS Info"
+msgstr "اطلاعات پیامک"
 
 #. module: oe_sms
 #: model:ir.model.fields,field_description:oe_sms.field_res_config_settings__sms_provider_type
@@ -103,11 +132,6 @@ msgid "SMS send from"
 msgstr "پیامک ارسالی از"
 
 #. module: oe_sms
-#: model_terms:ir.ui.view,arch_db:oe_sms.res_config_settings_view_form_oe_sms
-msgid "SMS service"
-msgstr "خدمات پیامک"
-
-#. module: oe_sms
 #: model:ir.model.fields,field_description:oe_sms.field_res_config_settings__sms_user
 msgid "SMS user"
 msgstr "نام کاربری پیامک"
@@ -118,12 +142,8 @@ msgid ""
 "The recipient is blacklisted (e.g. People that respond \"STOP\" to an "
 "earlier message can appear in the blacklist)"
 msgstr ""
-"گیرنده در لیست سیاه قرار دارد (مثلاً افرادی که به پیام قبلی با «STOP» پاسخ دهند)"
-
-#. module: oe_sms
-#: model_terms:ir.ui.view,arch_db:oe_sms.res_config_settings_view_form_oe_sms
-msgid "em SMS"
-msgstr "پیامک"
+"گیرنده در لیست سیاه قرار دارد (مثلاً افرادی که به پیام قبلی با «STOP» پاسخ "
+"دهند)"
 
 #. module: oe_sms
 #: model:ir.model.fields,field_description:oe_sms.field_sms_resend_recipient__oe_reason_code
