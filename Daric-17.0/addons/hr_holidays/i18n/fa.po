@@ -601,18 +601,13 @@ msgid ""
 "<span class=\"ml8\" invisible=\"type_request_unit == 'hour'\">Days</span>\n"
 "                                <span class=\"ml8\" invisible=\"type_request_unit != 'hour'\">Hours</span>"
 msgstr ""
-"```html\n"
 "<span class=\"ml8\" invisible=\"type_request_unit == 'hour'\">روزها</span>\n"
-"                                <span class=\"ml8\" invisible=\"type_request_unit != 'hour'\">ساعت‌ها</span>\n"
-"```"
+"                                <span class=\"ml8\" invisible=\"type_request_unit != 'hour'\">ساعت‌ها</span>"
 
 #. module: hr_holidays
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_view_form
 msgid "<span class=\"ms-3\">Days</span>"
-msgstr ""
-"```html\n"
-"<span class=\"ms-3\">روزها</span>\n"
-"```"
+msgstr "<span class=\"ms-3\">روزها</span>"
 
 #. module: hr_holidays
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_employee_public_form_view_inherit
@@ -647,19 +642,14 @@ msgid ""
 "                           Time Off\n"
 "                        </span>"
 msgstr ""
-"```html\n"
 "<span class=\"o_stat_text\">\n"
 "                           مرخصی\n"
-"                        </span>\n"
-"```"
+"                        </span>"
 
 #. module: hr_holidays
 #: model_terms:ir.ui.view,arch_db:hr_holidays.edit_holiday_status_form
 msgid "<span class=\"o_stat_text\">Accruals</span>"
-msgstr ""
-"```html\n"
-"<span class=\"o_stat_text\">ذخیره‌ها</span>\n"
-"```"
+msgstr "<span class=\"o_stat_text\">ذخیره‌ها</span>"
 
 #. module: hr_holidays
 #: model_terms:ir.ui.view,arch_db:hr_holidays.edit_holiday_status_form
@@ -695,7 +685,6 @@ msgid ""
 "                    </span>\n"
 "                    ("
 msgstr ""
-"```html\n"
 "<span invisible=\"holiday_type != 'employee'\">\n"
 "    کارمند دارای منطقه زمانی متفاوتی نسبت به شما است! اینجا تاریخ‌ها و زمان‌ها براساس منطقه زمانی کارمند نمایش داده می‌شوند\n"
 "</span>\n"
@@ -705,18 +694,12 @@ msgstr ""
 "<span invisible=\"holiday_type != 'company'\">\n"
 "    شرکت دارای منطقه زمانی متفاوتی نسبت به شما است! اینجا تاریخ‌ها و زمان‌ها براساس منطقه زمانی شرکت نمایش داده می‌شوند\n"
 "</span>\n"
-"(\n"
-"```"
+"("
 
 #. module: hr_holidays
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_view_form
-msgid ""
-"<span>You can only take this time off in whole days, so if your schedule has"
-" half days, it won't be used efficiently.</span>"
-msgstr ""
-"```html\n"
-"<span>شما فقط می‌توانید این مرخصی را به صورت روزهای کامل بگیرید، بنابراین اگر برنامه شما شامل نیم روزها باشد، به طور کارآمدی استفاده نخواهد شد.</span>\n"
-"```"
+msgid "<span>You can only take this time off in whole days, so if your schedule has half days, it won't be used efficiently.</span>"
+msgstr "<span>شما فقط می‌توانید این مرخصی را به صورت روزهای کامل بگیرید، بنابراین اگر برنامه شما شامل نیم روزها باشد، به طور کارآمدی استفاده نخواهد شد.</span>"
 
 #. module: hr_holidays
 #: model_terms:ir.ui.view,arch_db:hr_holidays.report_holidayssummary

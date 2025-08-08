@@ -240,11 +240,9 @@ msgid ""
 "                            Work Entries\n"
 "                            </span>"
 msgstr ""
-"```html\n"
 "<span class=\"o_stat_text\">\n"
-"                            ورودی های کاری\n"
-"                            </span>\n"
-"```"
+"                            ورودی‌های کاری\n"
+"                            </span>"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_payslip_run_form

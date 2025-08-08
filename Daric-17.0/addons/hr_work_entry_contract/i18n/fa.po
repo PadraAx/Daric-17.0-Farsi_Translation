@@ -69,9 +69,7 @@ msgid ""
 "<i class=\"fa fa-exclamation-triangle me-1\" title=\"Warning\"/>You are not "
 "allowed to regenerate validated work entries"
 msgstr ""
-"```html\n"
-"<i class=\"fa fa-exclamation-triangle me-1\" title=\"هشدار\"/>شما مجاز به بازسازی مجدد ورودی‌های کاری تایید شده نیستید\n"
-"```"
+"<i class=\"fa fa-exclamation-triangle me-1\" title=\"هشدار\"/>شما مجاز به بازسازی مجدد ورودی‌های کاری تایید شده نیستید"
 
 #. module: hr_work_entry_contract
 #: model_terms:ir.ui.view,arch_db:hr_work_entry_contract.hr_work_entry_regeneration_wizard

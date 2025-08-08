@@ -51,19 +51,13 @@ msgstr "<span class=\"o_stat_text\">غرفه‌ها</span>"
 #: model_terms:event.booth.category,description:event_booth.event_booth_category_premium
 #: model_terms:event.booth.category,description:event_booth.event_booth_category_standard
 msgid "<span>1 Branded Booth</span>"
-msgstr ""
-"```html\n"
-"<span> 1 غرفه با نام تجاری </span>\n"
-"```"
+msgstr "<span>۱ غرفه با نام تجاری</span>"
 
 #. module: event_booth
 #: model_terms:event.booth.category,description:event_booth.event_booth_category_premium
 #: model_terms:event.booth.category,description:event_booth.event_booth_category_standard
 msgid "<span>1 desk</span>"
-msgstr ""
-"```html\n"
-"<span>۱ میز</span>\n"
-"```"
+msgstr "<span>۱ میز</span>"
 
 #. module: event_booth
 #: model_terms:event.booth.category,description:event_booth.event_booth_category_premium
@@ -74,10 +68,7 @@ msgstr "<span>۱۱ + ۱۰ گذرها</span>"
 #. module: event_booth
 #: model_terms:event.booth.category,description:event_booth.event_booth_category_vip
 msgid "<span>100 words description on website</span>"
-msgstr ""
-"```html\n"
-"<span>۱۰۰ کلمه توضیح در تارنما</span>\n"
-"```"
+msgstr "<span>۱۰۰ کلمه توضیح در تارنما</span>"
 
 #. module: event_booth
 #: model_terms:event.booth.category,description:event_booth.event_booth_category_vip
@@ -109,10 +100,7 @@ msgstr "<span>۴م²</span>"
 #. module: event_booth
 #: model_terms:event.booth.category,description:event_booth.event_booth_category_premium
 msgid "<span>50 words description on website</span>"
-msgstr ""
-"```html\n"
-"<span>توضیحات ۵۰ کلمه‌ای در تارنما</span>\n"
-"```"
+msgstr "<span>توضیحات ۵۰ کلمه‌ای در تارنما</span>"
 
 #. module: event_booth
 #: model_terms:event.booth.category,description:event_booth.event_booth_category_vip

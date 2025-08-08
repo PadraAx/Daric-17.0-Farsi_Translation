@@ -121,18 +121,12 @@ msgstr ""
 #. module: hr_attendance
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
 msgid "<span> seconds</span>"
-msgstr ""
-"```html\n"
-"<span> ثانیه‌ها</span>\n"
-"```"
+msgstr "<span> ثانیه‌ها</span>"
 
 #. module: hr_attendance
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
 msgid "<span>Time Period </span>"
-msgstr ""
-"```html\n"
-"<span>دوره زمانی </span>\n"
-"```"
+msgstr "<span>دوره زمانی </span>"
 
 #. module: hr_attendance
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance__message_needaction

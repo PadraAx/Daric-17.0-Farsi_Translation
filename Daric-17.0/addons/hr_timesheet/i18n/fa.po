@@ -149,10 +149,9 @@ msgid ""
 "<span class=\"text-nowrap\" invisible=\"encode_uom_in_days\">Hours Spent on Sub-tasks:</span>\n"
 "                                <span class=\"text-nowrap\" invisible=\"not encode_uom_in_days\">Days Spent on Sub-tasks:</span>"
 msgstr ""
-"```html\n"
 "<span class=\"text-nowrap\" invisible=\"encode_uom_in_days\">ساعت‌های صرف شده برای زیرکارها:</span>\n"
-"                                <span class=\"text-nowrap\" invisible=\"not encode_uom_in_days\">روزهای صرف شده برای زیرکارها:</span>\n"
-"```"
+"<span class=\"text-nowrap\" invisible=\"not encode_uom_in_days\">روزهای صرف شده برای زیرکارها:</span>"
+
 
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.hr_employee_delete_wizard_form
@@ -170,7 +169,6 @@ msgid ""
 "                        Are you sure you want to delete these employees?\n"
 "                    </span>"
 msgstr ""
-"```html\n"
 "<span invisible=\"not has_timesheet\">\n"
 "                        شما نمی‌توانید کارکنانی که برگه‌های زمانی دارند را حذف کنید.\n"
 "                        <span invisible=\"not has_active_employee\">\n"
@@ -183,7 +181,6 @@ msgstr ""
 "                    <span invisible=\"has_timesheet\">\n"
 "                        آیا مطمئن هستید که می‌خواهید این کارکنان را حذف کنید؟\n"
 "                    </span>\n"
-"```"
 
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.timesheet_table

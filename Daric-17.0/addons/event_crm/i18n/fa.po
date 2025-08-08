@@ -41,18 +41,12 @@ msgstr "#.ثبت نام‌ها"
 #: code:addons/event_crm/models/event_registration.py:0
 #, python-format
 msgid "(updated)"
-msgstr ""
-"```\n"
-"(به‌روز شده)\n"
-"```"
+msgstr "(به‌روز شده)"
 
 #. module: event_crm
 #: model_terms:ir.ui.view,arch_db:event_crm.crm_lead_view_form
 msgid "<span class=\"o_stat_text\"> Attendees</span>"
-msgstr ""
-"```html\n"
-"<span class=\"o_stat_text\"> شرکت‌کنندگان</span>\n"
-"```"
+msgstr "<span class=\"o_stat_text\"> شرکت‌کنندگان</span>"
 
 #. module: event_crm
 #: model_terms:ir.ui.view,arch_db:event_crm.event_registration_view_form

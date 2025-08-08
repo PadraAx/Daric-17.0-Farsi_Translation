@@ -33,9 +33,7 @@ msgid ""
 "default work location for each day of the week. This schedule will repeat "
 "itself each week.</span>"
 msgstr ""
-"```html\n"
-"<span class=\"text-muted fst-italic oe_inline\" colspan=\"2\">موقعیت کاری پیش‌فرض خود را برای هر روز هفته مشخص کنید. این برنامه هر هفته تکرار خواهد شد.</span>\n"
-"```"
+"<span class=\"text-muted fst-italic oe_inline\" colspan=\"2\">موقعیت کاری پیش‌فرض خود را برای هر روز هفته مشخص کنید. این برنامه هر هفته تکرار خواهد شد.</span>"
 
 #. module: hr_homeworking
 #. odoo-javascript

@@ -30,10 +30,8 @@ msgid ""
 "<span class=\"o_stat_value\">1</span>\n"
 "                        <span class=\"o_stat_text\">Employee</span>"
 msgstr ""
-"```html\n"
 "<span class=\"o_stat_value\">۱</span>\n"
-"                        <span class=\"o_stat_text\">کارمند</span>\n"
-"```"
+"                        <span class=\"o_stat_text\">کارمند</span>"
 
 #. module: hr_fleet
 #: model:ir.model,name:hr_fleet.model_mail_activity_plan_template

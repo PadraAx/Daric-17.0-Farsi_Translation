@@ -27,10 +27,8 @@ msgid ""
 "<i class=\"fa fa-fw me-2 fa-building text-primary\"/>\n"
 "                    <b>Company type</b>"
 msgstr ""
-"```html\n"
 "<i class=\"fa fa-fw me-2 fa-building text-primary\"/>\n"
 "                    <b>نوع شرکت</b>\n"
-"```"
 
 #. module: iap_mail
 #: model_terms:ir.ui.view,arch_db:iap_mail.enrich_company
@@ -38,10 +36,8 @@ msgid ""
 "<i class=\"fa fa-fw me-2 fa-calendar text-primary\"/>\n"
 "                    <b>Founded</b>"
 msgstr ""
-"```html\n"
 "<i class=\"fa fa-fw me-2 fa-calendar text-primary\"/>\n"
 "                    <b>تأسیس شده</b>\n"
-"```"
 
 #. module: iap_mail
 #: model_terms:ir.ui.view,arch_db:iap_mail.enrich_company
@@ -49,10 +45,8 @@ msgid ""
 "<i class=\"fa fa-fw me-2 fa-cube text-primary\"/>\n"
 "                    <b>Technologies Used</b>"
 msgstr ""
-"```html\n"
 "        <i class=\"fa fa-fw me-2 fa-cube text-primary\"/>\n"
 "                    <b>تکنولوژی‌های استفاده‌شده</b>\n"
-"```"
 
 #. module: iap_mail
 #: model_terms:ir.ui.view,arch_db:iap_mail.enrich_company
@@ -69,10 +63,8 @@ msgid ""
 "<i class=\"fa fa-fw me-2 fa-globe text-primary\"/>\n"
 "                    <b>Timezone</b>"
 msgstr ""
-"```html\n"
 "<i class=\"fa fa-fw me-2 fa-globe text-primary\"/>\n"
 "                    <b>منطقه زمانی</b>\n"
-"```"
 
 #. module: iap_mail
 #: model_terms:ir.ui.view,arch_db:iap_mail.enrich_company
@@ -80,10 +72,8 @@ msgid ""
 "<i class=\"fa fa-fw me-2 fa-industry text-primary\"/>\n"
 "                    <b>Sectors</b>"
 msgstr ""
-"```html\n"
 "<i class=\"fa fa-fw me-2 fa-industry text-primary\"/>\n"
 "                    <b>صنایع</b>\n"
-"```"
 
 #. module: iap_mail
 #: model_terms:ir.ui.view,arch_db:iap_mail.enrich_company
@@ -100,10 +90,8 @@ msgid ""
 "<i class=\"fa fa-fw me-2 fa-phone text-primary\"/>\n"
 "                    <b>Phone</b>"
 msgstr ""
-"```html\n"
 "<i class=\"fa fa-fw me-2 fa-phone text-primary\"/>\n"
 "                    <b>تلفن</b>\n"
-"```"
 
 #. module: iap_mail
 #: model_terms:ir.ui.view,arch_db:iap_mail.enrich_company
@@ -111,10 +99,8 @@ msgid ""
 "<i class=\"fa fa-fw me-2 fa-twitter text-primary\"/>\n"
 "                    <b>Twitter</b>"
 msgstr ""
-"```html\n"
 "<i class=\"fa fa-fw me-2 fa-twitter text-primary\"/>\n"
 "                    <b>توییتر</b>\n"
-"```"
 
 #. module: iap_mail
 #: model_terms:ir.ui.view,arch_db:iap_mail.enrich_company

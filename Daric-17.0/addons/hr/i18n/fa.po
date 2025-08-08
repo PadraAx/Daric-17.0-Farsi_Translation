@@ -121,8 +121,7 @@ msgid ""
 "<b>Congratulations!</b> May I recommend you to setup an <a "
 "href=\"%s\">onboarding plan?</a>"
 msgstr ""
-"<b> تبریک ! </ b> آیا میتوانم شما را  توصیه کنم به راه اندازی <a "
-"href=\"%s\"> طرح پرکننده؟ </a>"
+"<b>تبریک!</b> آیا مایلید من به شما پیشنهاد کنم یک <a href=\"%s\">برنامه آشنایی با کار</a> تنظیم کنید؟"
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_department_view_kanban
@@ -133,10 +132,7 @@ msgstr "<i class=\"fa fa-building-o\" role=\"img\" aria-label=\"شرکت\" title
 #: model_terms:ir.ui.view,arch_db:hr.hr_employee_public_view_kanban
 #: model_terms:ir.ui.view,arch_db:hr.hr_kanban_view_employees
 msgid "<i class=\"fa fa-fw me-2 fa-envelope text-primary\" title=\"Email\"/>"
-msgstr ""
-"```html\n"
-"<i class=\"fa fa-fw me-2 fa-envelope text-primary\" title=\"ایمیل\"/>\n"
-"```"
+msgstr "<i class=\"fa fa-fw me-2 fa-envelope text-primary\" title=\"ایمیل\"/>"
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_employee_public_view_kanban
@@ -159,10 +155,7 @@ msgstr "<small><b>خواندن</b></small>"
 #: model_terms:ir.ui.view,arch_db:hr.res_config_settings_view_form
 msgid ""
 "<span class=\"flex-shrink-0 ml8 me-2\">IP Addresses (comma-separated)</span>"
-msgstr ""
-"```html\n"
-"<span class=\"flex-shrink-0 ml8 me-2\">آدرس‌های IP (جدا شده با کاما)</span>\n"
-"```"
+msgstr "<span class=\"flex-shrink-0 ml8 me-2\">آدرس‌های IP (جدا شده با کاما)</span>"
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_config_settings_view_form
@@ -198,10 +191,7 @@ msgstr ""
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_departure_wizard_view_form
 msgid "<span class=\"o_form_label o_hr_form_label cursor-default\">HR Info</span>"
-msgstr ""
-"```html\n"
-"<span class=\"o_form_label o_hr_form_label cursor-default\">اطلاعات منابع انسانی</span>\n"
-"```"
+msgstr "<span class=\"o_form_label o_hr_form_label cursor-default\">اطلاعات منابع انسانی</span>"
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
@@ -233,10 +223,7 @@ msgstr "<span class=\"o_stat_text\">کارمند</span>"
 #: model_terms:hr.job,job_details:hr.job_marketing
 #: model_terms:hr.job,job_details:hr.job_trainee
 msgid "<span class=\"text-muted small\">Days to get an Offer</span>"
-msgstr ""
-"```html\n"
-"<span class=\"text-muted small\">روزهایی که می‌توان پیشنهاد دریافت کرد</span>\n"
-"```"
+msgstr "<span class=\"text-muted small\">روزهای لازم برای دریافت پیشنهاد</span>"
 
 #. module: hr
 #: model_terms:hr.job,job_details:hr.job_ceo
@@ -258,10 +245,7 @@ msgstr "<span class=\"text-muted small\">فرآیند</span>"
 #: model_terms:hr.job,job_details:hr.job_marketing
 #: model_terms:hr.job,job_details:hr.job_trainee
 msgid "<span class=\"text-muted small\">Time to Answer</span>"
-msgstr ""
-"```html\n"
-"<span class=\"text-muted small\">زمان پاسخگویی</span>\n"
-"```"
+msgstr "<span class=\"text-muted small\">زمان پاسخ‌گویی</span>"
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
@@ -571,7 +555,7 @@ msgstr "در دسترس"
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.mail_activity_plan_view_form
 msgid "Available for all Departments"
-msgstr ""
+msgstr "در دسترس برای همهٔ بخش‌ها"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__avatar_1920

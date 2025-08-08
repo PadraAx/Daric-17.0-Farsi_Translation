@@ -50,7 +50,6 @@ msgid ""
 "</div>\n"
 "            "
 msgstr ""
-"```html\n"
 "<div style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "        عزیز <t t-out=\"object.partner_id.name or 'applicant'\">[نام متقاضی]</t><br><br>\n"
@@ -72,7 +71,6 @@ msgstr ""
 "        </t>\n"
 "    </p>\n"
 "</div>\n"
-"```"
 
 #. module: hr_recruitment_survey
 #: model_terms:ir.ui.view,arch_db:hr_recruitment_survey.hr_applicant_view_form_inherit

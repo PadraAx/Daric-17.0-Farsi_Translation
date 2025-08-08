@@ -35,12 +35,10 @@ msgid ""
 "                        <br/>\n"
 "                        Regards."
 msgstr ""
-"```html\n"
-"                        <br/>\n"
-"                        ما از حمایت شما از سازمان ما قدردانی می‌کنیم.\n"
-"                        <br/>\n"
-"                        با احترام.\n"
-"```"
+"<br/>\n"
+"ما از حمایت شما از سازمان ما قدردانی می‌کنیم.\n"
+"<br/>\n"
+"با احترام."
 
 #. module: website_payment
 #: model_terms:ir.ui.view,arch_db:website_payment.donation_mail_body

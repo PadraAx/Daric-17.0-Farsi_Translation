@@ -114,10 +114,8 @@ msgid ""
 "<span class=\"badge rounded-pill text-bg-danger float-end me-4\" invisible=\"application_status != 'refused'\">Refused</span>\n"
 "                            <span class=\"badge rounded-pill text-bg-secondary float-end me-4\" invisible=\"application_status != 'archived'\">Archived</span>"
 msgstr ""
-"```html\n"
 "<span class=\"badge rounded-pill text-bg-danger float-end me-4\" invisible=\"application_status != 'refused'\">رد شد</span>\n"
-"<span class=\"badge rounded-pill text-bg-secondary float-end me-4\" invisible=\"application_status != 'archived'\">بایگانی شده</span>\n"
-"```"
+"<span class=\"badge rounded-pill text-bg-secondary float-end me-4\" invisible=\"application_status != 'archived'\">بایگانی شده</span>"
 
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.applicant_get_refuse_reason_view_form
@@ -127,26 +125,17 @@ msgstr "<span class=\"mx-2\">به</span>"
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.hr_applicant_view_form
 msgid "<span class=\"o_stat_text\">Employee</span>"
-msgstr ""
-"```html\n"
-"<span class=\"o_stat_text\">کارمند</span>\n"
-"```"
+msgstr "<span class=\"o_stat_text\">کارمند</span>"
 
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.hr_job_survey
 msgid "<span class=\"o_stat_text\">Trackers</span>"
-msgstr ""
-"```html\n"
-"<span class=\"o_stat_text\">ردیاب‌ها</span>\n"
-"```"
+msgstr "<span class=\"o_stat_text\">ردیاب‌ها</span>"
 
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.hr_kanban_view_applicant
 msgid "<span class=\"text-bg-success\">Hired</span>"
-msgstr ""
-"```html\n"
-"<span class=\"text-bg-success\">استخدام شده</span>\n"
-"```"
+msgstr "<span class=\"text-bg-success\">استخدام شده</span>"
 
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.hr_job_survey
@@ -164,15 +153,13 @@ msgid ""
 "                                </span>\n"
 "                            </span>"
 msgstr ""
-"```html\n"
-"<span  invisible=\"not is_warning_visible\">\n"
+"<span invisible=\"not is_warning_visible\">\n"
 "    <span class=\"fa fa-exclamation-triangle text-danger ps-3\">\n"
 "    </span>\n"
 "    <span class=\"text-danger\">\n"
 "        تمامی درخواست‌ها تاریخ استخدام و وضعیت استخدامی خود را از دست خواهند داد.\n"
 "    </span>\n"
-"</span>\n"
-"```"
+"</span>"
 
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.hr_applicant_view_form
@@ -187,10 +174,8 @@ msgstr "<span invisible=\"not salary_proposed_extra\"> + </span>"
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.view_hr_recruitment_stage_kanban
 msgid "<span>Folded in Recruitment Pipe: </span>"
-msgstr ""
-"```html\n"
-"<span>پنهان شده در خط استخدام: </span>\n"
-"```"
+msgstr "<span>پنهان شده در خط استخدام: </span>"
+
 
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.view_hr_job_kanban
@@ -278,7 +263,6 @@ msgid ""
 "    </tr>\n"
 "</table>"
 msgstr ""
-"```html\n"
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"background-color: white; border-collapse: collapse; margin-left: 20px;\">\n"
 "    <tr>\n"
 "        <td valign=\"top\" style=\"padding: 0px 10px;\">\n"
@@ -286,7 +270,7 @@ msgstr ""
 "                سلام،\n"
 "                <br><br>\n"
 "                دریافت موفقیت‌آمیز درخواست شما برای شغل\n"
-"                \"<a t-att-href=\"hasattr(object.job_id, 'website_url') and object.job_id.website_url or ''\" style=\"color:#9A6C8E;\"><strong t-out=\"object.job_id.name or ''\">توسعه دهنده با تجربه</strong></a>\" در <strong t-out=\"object.company_id.name or ''\">شرکت شما</strong> را تأیید می‌کنیم.\n"
+"                \"<a t-att-href=\"hasattr(object.job_id, 'website_url') and object.job_id.website_url or ''\" style=\"color:#9A6C8E;\"><strong t-out=\"object.job_id.name or ''\">توسعه‌دهنده با تجربه</strong></a>\" در <strong t-out=\"object.company_id.name or ''\">شرکت شما</strong> را تأیید می‌کنیم.\n"
 "                <br><br>\n"
 "                به زودی با شما تماس خواهیم گرفت.\n"
 "\n"
@@ -307,7 +291,7 @@ msgstr ""
 "\n"
 "                <h3 style=\"color:#9A6C8E;\"><strong>قدم بعدی چیست؟</strong></h3>\n"
 "                ما معمولاً <strong>در عرض چند روز به درخواست‌ها پاسخ می‌دهیم.</strong><br><br>\n"
-"                لطفاً <strong>با ما تماس بگیرید اگر نیاز به بازخورد سریعتری دارید</strong> یا اگر اخبار ما به اندازه کافی سریع به دست شما نمی‌رسد (فقط به این ایمیل پاسخ دهید).\n"
+"                لطفاً <strong>با ما تماس بگیرید اگر نیاز به بازخورد سریع‌تری دارید</strong> یا اگر اخبار ما به اندازه کافی سریع به دست شما نمی‌رسد (فقط به این ایمیل پاسخ دهید).\n"
 "\n"
 "                <hr width=\"97%\" style=\"background-color: rgb(204,204,204); border: medium none; clear: both; display: block; font-size: 0px; min-height: 1px; line-height: 0; margin: 17px 0px 16px 0px;\">\n"
 "                <t t-set=\"location\" t-value=\"''\"></t>\n"
@@ -343,8 +327,7 @@ msgstr ""
 "            </div>\n"
 "        </td>\n"
 "    </tr>\n"
-"</table>\n"
-"```"
+"</table>"
 
 #. module: hr_recruitment
 #: model:mail.template,body_html:hr_recruitment.email_template_data_applicant_interest
@@ -429,7 +412,6 @@ msgid ""
 "    </tr>\n"
 "</table>"
 msgstr ""
-"```html\n"
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"background-color: white; border-collapse: collapse; margin-right: 20px;\">\n"
 "    <tr>\n"
 "        <td valign=\"top\" style=\"padding: 0px 10px;\">\n"
@@ -504,7 +486,6 @@ msgstr ""
 "        </td>\n"
 "    </tr>\n"
 "</table>\n"
-"```"
 
 #. module: hr_recruitment
 #: model:mail.template,body_html:hr_recruitment.email_template_data_applicant_not_interested
@@ -537,7 +518,6 @@ msgid ""
 "</table>\n"
 "        "
 msgstr ""
-"```html\n"
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "    <tr>\n"
 "        <td valign=\"top\">\n"
@@ -564,7 +544,6 @@ msgstr ""
 "        </td>\n"
 "    </tr>\n"
 "</table>\n"
-"```"
 
 #. module: hr_recruitment
 #: model:mail.template,body_html:hr_recruitment.email_template_data_applicant_refuse
@@ -613,7 +592,6 @@ msgid ""
 "</table>\n"
 "        "
 msgstr ""
-"```html\n"
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "    <tr>\n"
 "        <td valign=\"top\">\n"
@@ -651,7 +629,6 @@ msgstr ""
 "        </td>\n"
 "    </tr>\n"
 "</table>\n"
-"```"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job__alias_defaults

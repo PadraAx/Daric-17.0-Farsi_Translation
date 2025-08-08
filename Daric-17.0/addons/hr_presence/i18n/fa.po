@@ -36,7 +36,6 @@ msgid ""
 "                </div>\n"
 "            "
 msgstr ""
-"```html\n"
 "<div>\n"
 "    عزیز <t t-out=\"object.name or ''\">ابیگیل پیترسون</t>,<br><br>\n"
 "    استثنایی در صورت اشتباه ما صورت گرفته است، به نظر می‌رسد که شما در دفتر خود نیستید و هیچ درخواستی برای مرخصی از طرف شما وجود ندارد.<br>\n"
@@ -44,7 +43,6 @@ msgstr ""
 "    در صورت نیاز با مدیر خود یا بخش منابع انسانی تماس بگیرید.\n"
 "    <br>با احترام،<br><br>\n"
 "</div>\n"
-"```"
 
 #. module: hr_presence
 #: model_terms:ir.ui.view,arch_db:hr_presence.hr_employee_view_presence_search
