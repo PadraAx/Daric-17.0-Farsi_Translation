@@ -2491,13 +2491,13 @@ msgstr "هیچ تکثیری از شماره ثبت مجاز نیست"
 #: code:addons/hr_payroll/models/hr_rule_parameter.py:0
 #, python-format
 msgid "No rule parameter with code %r was found for %s "
-msgstr ""
+msgstr "هیچ پارامتر قانونی با کد %r برای %s پیدا نشد"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_employee__is_non_resident
 #: model:ir.model.fields,field_description:hr_payroll.field_res_users__is_non_resident
 msgid "Non-resident"
-msgstr ""
+msgstr "غیرمقیم"
 
 #. module: hr_payroll
 #. odoo-python
@@ -2512,7 +2512,7 @@ msgstr "یادداشت"
 msgid ""
 "Note a description of your parameter, when it's used, how is it computed, "
 "what's the source, ..."
-msgstr ""
+msgstr "توضیحی درباره پارامتر خود، زمان استفاده، نحوه محاسبه و منبع آن را یادداشت کنید..."
 
 #. module: hr_payroll
 #. odoo-python
@@ -2521,7 +2521,7 @@ msgstr ""
 msgid ""
 "Note: There are previous payslips with a negative amount for a total of %s "
 "to report."
-msgstr ""
+msgstr "توجه: فیش‌های حقوقی قبلی با مبلغ منفی به مجموع %s برای گزارش وجود دارند."
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_salary_rule_category_form
