@@ -32,13 +32,16 @@ msgid ""
 "                            Skills tab will be active once the appraisal is confirmed.\n"
 "                        </span>"
 msgstr ""
+"<span class=\"o_appraisal_overlay\" invisible=\"state != 'new'\">\n"
+"                            برگه مهارت‌ها پس از تأیید ارزیابی فعال خواهد شد.\n"
+"                        </span>"
 
 #. module: hr_appraisal_skills
 #. odoo-javascript
 #: code:addons/hr_appraisal_skills/static/src/js/appraisal_skills_one2many.xml:0
 #, python-format
 msgid "Add new skills"
-msgstr ""
+msgstr "افزودن مهارت‌های جدید"
 
 #. module: hr_appraisal_skills
 #: model:ir.model.fields,field_description:hr_appraisal_skills.field_hr_appraisal_skill__appraisal_id
@@ -49,12 +52,12 @@ msgstr "ارزیابی"
 #: model:ir.actions.act_window,name:hr_appraisal_skills.hr_appraisal_skill_report_action
 #: model:ir.model,name:hr_appraisal_skills.model_hr_appraisal_skill_report
 msgid "Appraisal Skills Report"
-msgstr ""
+msgstr "گزارش مهارت‌های ارزیابی"
 
 #. module: hr_appraisal_skills
 #: model_terms:ir.actions.act_window,help:hr_appraisal_skills.hr_appraisal_skill_report_action
 msgid "Appraisal skills appear only for marked appraisals."
-msgstr ""
+msgstr "مهارت‌های ارزیابی تنها برای ارزیابی‌های علامت‌گذاری‌شده نمایش داده می‌شوند."
 
 #. module: hr_appraisal_skills
 #: model:ir.model.fields,field_description:hr_appraisal_skills.field_hr_appraisal_skill_report__company_id
@@ -74,12 +77,12 @@ msgstr "ایجادشده در"
 #. module: hr_appraisal_skills
 #: model:ir.model.fields,field_description:hr_appraisal_skills.field_hr_appraisal_skill_report__current_skill_level_id
 msgid "Current Skill Level"
-msgstr ""
+msgstr "سطح مهارت فعلی"
 
 #. module: hr_appraisal_skills
 #: model:ir.model.fields,field_description:hr_appraisal_skills.field_hr_appraisal_skill_report__current_level_progress
 msgid "Current Skill Progress"
-msgstr ""
+msgstr "پیشرفت مهارت فعلی"
 
 #. module: hr_appraisal_skills
 #: model:ir.model.fields.selection,name:hr_appraisal_skills.selection__hr_appraisal_skill_report__evolution__decline
@@ -117,23 +120,23 @@ msgstr "نام کارمند"
 #. module: hr_appraisal_skills
 #: model:ir.model.fields,field_description:hr_appraisal_skills.field_hr_appraisal_skill__employee_skill_id
 msgid "Employee Skill"
-msgstr ""
+msgstr "مهارت کارمند"
 
 #. module: hr_appraisal_skills
 #: model:ir.model,name:hr_appraisal_skills.model_hr_appraisal_skill
 msgid "Employee Skills"
-msgstr "Compétences de l'employé"
+msgstr "مهارت‌های کارمند"
 
 #. module: hr_appraisal_skills
 #: model:ir.model.fields,field_description:hr_appraisal_skills.field_hr_appraisal_skill_report__evolution
 #: model_terms:ir.ui.view,arch_db:hr_appraisal_skills.hr_appraisal_skill_report_view_search
 msgid "Evolution"
-msgstr ""
+msgstr "روند پیشرفت"
 
 #. module: hr_appraisal_skills
 #: model:ir.model.fields,field_description:hr_appraisal_skills.field_hr_appraisal_skill_report__evolution_sequence
 msgid "Evolution Sequence"
-msgstr ""
+msgstr "ترتیب پیشرفت"
 
 #. module: hr_appraisal_skills
 #: model:ir.model.fields,field_description:hr_appraisal_skills.field_hr_appraisal_skill__id
@@ -145,12 +148,12 @@ msgstr "شناسه"
 #: model:ir.model.fields.selection,name:hr_appraisal_skills.selection__hr_appraisal_skill_report__evolution__improvement
 #: model_terms:ir.ui.view,arch_db:hr_appraisal_skills.hr_appraisal_skill_report_view_search
 msgid "Improvement"
-msgstr ""
+msgstr "بهبود"
 
 #. module: hr_appraisal_skills
 #: model:ir.model.fields.selection,name:hr_appraisal_skills.selection__hr_appraisal_skill_report__evolution__just_added
 msgid "Just added"
-msgstr ""
+msgstr "به‌تازگی اضافه شده"
 
 #. module: hr_appraisal_skills
 #: model:ir.model.fields,field_description:hr_appraisal_skills.field_hr_appraisal_skill__justification
@@ -176,18 +179,18 @@ msgstr "مدیر"
 #. module: hr_appraisal_skills
 #: model_terms:ir.ui.view,arch_db:hr_appraisal_skills.hr_appraisal_skill_report_view_search
 msgid "No Change"
-msgstr ""
+msgstr "بدون تغییر"
 
 #. module: hr_appraisal_skills
 #: model:ir.model.fields,field_description:hr_appraisal_skills.field_hr_appraisal_skill__previous_skill_level_id
 #: model:ir.model.fields,field_description:hr_appraisal_skills.field_hr_appraisal_skill_report__previous_skill_level_id
 msgid "Previous Skill Level"
-msgstr ""
+msgstr "سطح مهارت قبلی"
 
 #. module: hr_appraisal_skills
 #: model:ir.model.fields,field_description:hr_appraisal_skills.field_hr_appraisal_skill_report__previous_level_progress
 msgid "Previous Skill Progress"
-msgstr ""
+msgstr "پیشرفت مهارت قبلی"
 
 #. module: hr_appraisal_skills
 #: model:ir.model.fields,field_description:hr_appraisal_skills.field_hr_appraisal_skill__level_progress
@@ -202,12 +205,12 @@ msgstr "پیشرفت از دانش صفر (0٪) به تسلط کامل (100٪)."
 #. module: hr_appraisal_skills
 #: model_terms:ir.ui.view,arch_db:hr_appraisal_skills.hr_appraisal_skill_report_view_search
 msgid "Regression"
-msgstr ""
+msgstr "پسرفت"
 
 #. module: hr_appraisal_skills
 #: model:ir.model.fields.selection,name:hr_appraisal_skills.selection__hr_appraisal_skill_report__evolution__same
 msgid "Same"
-msgstr ""
+msgstr "یکسان"
 
 #. module: hr_appraisal_skills
 #: model:ir.model.fields,field_description:hr_appraisal_skills.field_hr_appraisal_skill__skill_id
@@ -237,7 +240,7 @@ msgstr "مهارتها"
 #: model:ir.ui.menu,name:hr_appraisal_skills.menu_appraisal_skills_report
 #: model_terms:ir.actions.act_window,help:hr_appraisal_skills.hr_appraisal_skill_report_action
 msgid "Skills Evolution"
-msgstr ""
+msgstr "روند مهارت‌ها"
 
 #. module: hr_appraisal_skills
 #: model:ir.model.constraint,message:hr_appraisal_skills.constraint_hr_appraisal_skill__unique_skill
@@ -247,9 +250,9 @@ msgstr "دو سطح برای یک مهارت مجاز نیست"
 #. module: hr_appraisal_skills
 #: model_terms:ir.ui.view,arch_db:hr_appraisal_skills.appraisal_skills_update_template
 msgid "has been added."
-msgstr ""
+msgstr "اضافه شده است."
 
 #. module: hr_appraisal_skills
 #: model_terms:ir.ui.view,arch_db:hr_appraisal_skills.appraisal_skills_update_template
 msgid "has been deleted."
-msgstr ""
+msgstr "حذف شده است."
