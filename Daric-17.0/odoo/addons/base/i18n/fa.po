@@ -45269,13 +45269,13 @@ msgstr "الگوهای حسابداری صفحه گسترده"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_documents_spreadsheet_crm
 msgid "Spreadsheet CRM Templates"
-msgstr "صفحات CRM صفحه گسترده"
+msgstr "صفحات مدیریت ارتباط با مشتریان صفحه گسترده"
 
 #. module: base
 #: model:ir.module.module,description:base.module_documents_spreadsheet_crm
 #: model:ir.module.module,summary:base.module_documents_spreadsheet_crm
 msgid "Spreadsheet CRM templates"
-msgstr "صفحات CRM صفحه گسترده"
+msgstr "صفحات مدیریت ارتباط با مشتریان صفحه گسترده"
 
 #. module: base
 #: model:ir.module.module,description:base.module_spreadsheet_dashboard_edition
@@ -45315,7 +45315,7 @@ msgstr "نسخه پیشخوان صفحه گسترده"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_spreadsheet_dashboard_crm
 msgid "Spreadsheet dashboard for CRM"
-msgstr "پیشخوان صفحه گسترده برای CRM"
+msgstr "پیشخوان صفحه گسترده برای مدیریت ارتباط با مشتریان"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_spreadsheet_dashboard_account
@@ -45331,7 +45331,7 @@ msgstr "پیشخوان صفحه گسترده برای تجارت الکترون�
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_spreadsheet_dashboard_website_sale_slides
 msgid "Spreadsheet dashboard for eLearning"
-msgstr "پیشخوان صفحه گسترده برای eLearning"
+msgstr "پیشخوان صفحه‌گسترده برای آموزش الکترونیکی"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_spreadsheet_dashboard_event_sale
@@ -45346,7 +45346,8 @@ msgstr "پیشخوان صفحه گسترده برای هزینه ها"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_spreadsheet_dashboard_helpdesk
 msgid "Spreadsheet dashboard for helpdesk"
-msgstr "پیشخوان صفحه گسترده برای HelpDesk"
+msgstr "پیشخوان صفحه‌گسترده برای میز راهنمایی"
+
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_spreadsheet_dashboard_hr_contract
@@ -45398,18 +45399,18 @@ msgstr "پیشخوان صفحه گسترده برای فروش"
 #: model:ir.module.module,shortdesc:base.module_spreadsheet_dashboard_stock
 #: model:ir.module.module,shortdesc:base.module_spreadsheet_dashboard_stock_account
 msgid "Spreadsheet dashboard for stock"
-msgstr "پیشخوان صفحه گسترده برای سهام"
+msgstr "پیشخوان صفحه گسترده برای موجودی کالا"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_spreadsheet_dashboard_sale_subscription
 msgid "Spreadsheet dashboard for subscriptions"
-msgstr "پیشخوان صفحه گسترده برای اشتراک"
+msgstr "پیشخوان صفحه گسترده برای اشتراکها"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_spreadsheet_dashboard_hr_timesheet
 #: model:ir.module.module,shortdesc:base.module_spreadsheet_dashboard_sale_timesheet
 msgid "Spreadsheet dashboard for time sheets"
-msgstr "پیشخوان صفحه گسترده برای برگه های زمانی"
+msgstr "پیشخوان صفحه گسترده برای کارنما"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_in_reports_gstr_spreadsheet

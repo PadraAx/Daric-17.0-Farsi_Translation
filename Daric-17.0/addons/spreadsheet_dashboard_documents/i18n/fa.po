@@ -137,4 +137,4 @@ msgstr "پیشخوان اکسل"
 #: code:addons/spreadsheet_dashboard_documents/models/spreadsheet_dashboard.py:0
 #, python-format
 msgid "Untitled dashboard"
-msgstr ""
+msgstr "داشبورد بدون عنوان"

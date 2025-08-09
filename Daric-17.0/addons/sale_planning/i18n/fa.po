@@ -282,14 +282,14 @@ msgstr "تاریخ آغاز"
 #. module: sale_planning
 #: model_terms:product.template,description:sale_planning.technical_maintainance_product_product_template
 msgid "Take a rest. We'll do our best."
-msgstr ""
+msgstr "استراحت کنید. ما بهترین تلاشمان را خواهیم کرد."
 
 #. module: sale_planning
 #. odoo-javascript
 #: code:addons/sale_planning/static/src/views/planning_hooks.js:0
 #, python-format
 msgid "The open shifts and sales orders have been successfully assigned."
-msgstr ""
+msgstr "شیفت‌های آزاد و سفارش‌های فروش با موفقیت تخصیص داده شدند."
 
 #. module: sale_planning
 #. odoo-python
@@ -299,6 +299,7 @@ msgid ""
 "This Sale Order Item doesn't have a target value of planned hours. Planned "
 "hours :"
 msgstr ""
+"این آیتم سفارش فروش مقدار هدفی برای ساعات برنامه‌ریزی شده ندارد. ساعات برنامه‌ریزی شده:"
 
 #. module: sale_planning
 #. odoo-javascript
