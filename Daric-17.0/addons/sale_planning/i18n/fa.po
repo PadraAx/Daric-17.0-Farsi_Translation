@@ -258,10 +258,8 @@ msgstr "برنامه ریزی بر اساس سفارش فروش"
 
 #. module: sale_planning
 #: model_terms:ir.actions.act_window,help:sale_planning.sale_planning_action_schedule_by_sale_order
-msgid ""
-"Schedule your human and material resources across roles, projects and sales "
-"orders."
-msgstr ""
+msgid "Schedule your human and material resources across roles, projects and sales orders."
+msgstr "برنامه‌ریزی منابع انسانی و مادی خود را در نقش‌ها، پروژه‌ها و سفارش‌های فروش انجام دهید."
 
 #. module: sale_planning
 #: model:ir.model.fields,field_description:sale_planning.field_planning_role__product_ids

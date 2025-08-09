@@ -60,12 +60,12 @@ msgstr "برنامه ریزی"
 #. module: project_forecast
 #: model:ir.model,name:project_forecast.model_planning_analysis_report
 msgid "Planning Analysis Report"
-msgstr ""
+msgstr "گزارش تحلیل برنامه‌ریزی"
 
 #. module: project_forecast
 #: model:ir.model,name:project_forecast.model_planning_slot
 msgid "Planning Shift"
-msgstr ""
+msgstr "شیفت برنامه‌ریزی"
 
 #. module: project_forecast
 #: model:ir.model,name:project_forecast.model_project_project
@@ -82,7 +82,7 @@ msgstr "پروژه"
 #. module: project_forecast
 #: model:ir.actions.act_window,name:project_forecast.planning_action_schedule_by_project
 msgid "Schedule by Project"
-msgstr ""
+msgstr "برنامه‌ریزی بر اساس پروژه"
 
 #. module: project_forecast
 #: model:ir.actions.act_window,name:project_forecast.project_forecast_action_schedule_by_employee
@@ -92,10 +92,8 @@ msgstr "برنامه ریزی بر اساس منبع"
 #. module: project_forecast
 #: model_terms:ir.actions.act_window,help:project_forecast.planning_action_schedule_by_project
 #: model_terms:ir.actions.act_window,help:project_forecast.project_forecast_action_schedule_by_employee
-msgid ""
-"Schedule your human and material resources across roles, projects and sales "
-"orders."
-msgstr ""
+msgid "Schedule your human and material resources across roles, projects and sales orders."
+msgstr "برنامه‌ریزی منابع انسانی و مادی خود را در نقش‌ها، پروژه‌ها و سفارش‌های فروش انجام دهید."
 
 #. module: project_forecast
 #. odoo-python
@@ -112,14 +110,14 @@ msgstr "قالب شیفت"
 #. module: project_forecast
 #: model:planning.role,name:project_forecast.planning_role_tester
 msgid "Tester"
-msgstr ""
+msgstr "تستر"
 
 #. module: project_forecast
 #: model:ir.model.fields,field_description:project_forecast.field_project_project__total_forecast_time
 msgid "Total Forecast Time"
-msgstr "کل پیش‌بینی"
+msgstr "کل زمان پیش‌بینی"
 
 #. module: project_forecast
 #: model:ir.model.fields,help:project_forecast.field_project_project__total_forecast_time
 msgid "Total number of forecast hours in the project rounded to the unit."
-msgstr ""
+msgstr "کل تعداد ساعات پیش‌بینی شده در پروژه به نزدیک‌ترین واحد گرد شده است."
